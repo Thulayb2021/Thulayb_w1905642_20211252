@@ -1,37 +1,31 @@
-# Project Overview
+# Estimation of Obesity Levels Using Semi-Supervised Machine Learning
 
-Estimation of Obesity Levels Using Semi-Supervised Machine Learning
+This project aims to estimate obesity levels by leveraging a semi-supervised machine learning approach. It addresses the common challenge of limited labeled data in health datasets by combining unsupervised and supervised learning techniques.
 
-This project focuses on predicting obesity levels by integrating semi-supervised learning techniques to address the challenge of limited labelled data. The approach combines unsupervised K-Means clustering with supervised classification models to improve prediction accuracy and generate meaningful health insights.
+The methodology integrates K-Means clustering with three supervised classification models—Random Forest, Decision Trees, and XGBoost—to enhance prediction accuracy. After evaluating performance metrics such as accuracy and F1-score, Random Forest was selected as the final model due to its superior performance and robustness across classes.
 
-Three supervised models were evaluated in this study: Random Forest, Decision Trees, and XGBoost. After comparing performance across metrics such as accuracy and F1-score, Random Forest was selected as the final model due to its superior classification performance and robustness.
-
-The project also features an interactive Power BI dashboard that visualizes clustering patterns, model predictions, and trends in health-related behaviors, enabling actionable insights for healthcare practitioners and policymakers as well as the general public.
+Additionally, the project includes an interactive Power BI dashboard that visualizes cluster trends, model predictions, and health behavior patterns. This enables data-driven insights for healthcare practitioners, policymakers, and the general public.
 
 
 
+## 🔍 Scope
+Data cleaning and feature engineering on health and lifestyle variables
 
-## Scope
+Implementation of K-Means clustering for semi-supervised learning
 
-- Data cleaning and feature engineering on health and lifestyle variables
+Evaluation of three supervised models: Random Forest, Decision Trees, and XGBoost
 
-- Implementation of K-Means clustering.
+Final model selection based on performance metrics
 
-- Evaluation of three supervised models: Random Forest, Decision Trees and XGBoost
+Development of a Power BI dashboard for visualization and stakeholder insights
 
-- Final selection of the Random Forest classifier
 
-- Development of an interactive Power BI dashboard for visualization and analysis
 
-  
+## 📁 Repository Contents
+📁 Code/ – Python scripts for preprocessing, clustering, and training models
 
-## Contents
+📁 Dashboard/ – Power BI .pbix file for interactive analysis
 
-- 📁 Code/: Python scripts for data processing, clustering, and model training
+📁 Data/ – Original dataset used in the project
 
-- 📁 Dashboard/: Power BI dashboard file for interactive analysis
-
-- 📄 README.md: Project description and repository guide
-
-- 📁 Data/: Original dataset used for the project
-
+📄 README.md – Project overview and usage guide
