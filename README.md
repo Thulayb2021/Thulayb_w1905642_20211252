@@ -23,3 +23,13 @@ The project also features an interactive Power BI dashboard that visualizes clus
 
 - Development of an interactive Power BI dashboard for visualization and analysis
 
+  
+
+## Contents
+
+- 📁 Code/: Python scripts for data processing, clustering, and model training
+
+- 📁 Dashboard/: Power BI dashboard file for interactive analysis
+
+- 📄 README.md: Project description and repository guide
+
