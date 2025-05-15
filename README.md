@@ -33,3 +33,5 @@ The project also features an interactive Power BI dashboard that visualizes clus
 
 - 📄 README.md: Project description and repository guide
 
+- 📁 Data/: Original dataset used for the project
+
